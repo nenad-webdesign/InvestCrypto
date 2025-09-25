@@ -1,0 +1,464 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.manrope-weight {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.Hero {
+background: linear-gradient(#1E40AF, #1B1F24);
+place-items: center;
+}
+
+.nav-bar {
+width: 84%;
+justify-items: center;
+align-items: center;
+display: flex;
+}
+
+.nav-wrapper {
+width: 100%;
+justify-content: center;
+margin-right: auto;
+margin-left: auto;
+display: flex;
+gap: 24px;
+padding-top: 48px;
+}
+
+.nav-links {
+color: #F5F8FC;
+font-size: 16px;
+text-decoration: none;
+}
+
+.nav-links:hover {
+cursor: pointer;
+color: #1B1F24;
+}
+
+.menu-icon {
+display: none;
+}
+
+.menu {
+display: none;
+}
+
+.container {
+width: 88%;
+place-items: center;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+.hero-wrapper {
+width: 100%;
+place-items: center;
+}
+
+h1 {
+color: #F5F8FC;
+font-size: 64px;
+max-width: 22ch;
+margin-bottom: 24px;
+text-align: center;
+}
+.hero-button {
+display: block;
+margin: 40px auto 0;
+background-color: #2563EB;
+border-radius: 24px;
+border-style: none;
+color: #F5F8FC;
+font-size: 16px;
+width: 180px;
+height: 48px;
+font-weight: bold;
+}
+
+.hero-button:hover {
+cursor: pointer;
+border-width: 2px;
+border-style: solid;
+border-color: #F5F8FC;
+transform: scale(1.1);
+transition: 0.5s ease;
+}
+
+p {
+color: #F5F8FC;
+max-width: 775px;
+font-size: 16px;
+font-weight: 300;
+}
+
+.Hero p {
+text-align: center;
+}
+
+.hero-img-wrapper {
+padding-top: 80px;
+}
+
+.How-it-works {
+place-items: center;
+background-color: #1B1F24;
+}
+
+h2 {
+font-size: 52px;
+color: #F5F8FC;
+font-weight: 300;
+}
+
+.How-it-works h2 {
+text-align: left;
+margin-left: 0;
+}
+
+.border-container {
+width: 100%;
+height: 100%;
+border-color: #1E40AF;
+border-width:  1px;
+border-style: solid;
+border-radius: 24px;
+}
+
+.how-it-works-wrapper {
+margin: 40px auto 40px;
+width: 88%;
+}
+
+.card {
+display: flex;
+gap: 24px;
+padding-top: 60px;
+margin-left: 0;
+}
+
+.card-wrapper {
+background-image: linear-gradient(145deg, #1E40AF, #1B1F24);
+border-radius: 24px;
+border-width: 1px;
+border-style: none;
+}
+
+.card-wrapper_special{
+background-image: linear-gradient(145deg, #1E40AF, #1B1F24);
+border-radius: 24px;
+border-width: 1px;
+border-style: solid;
+border-color: #F5F8FC;
+}
+
+.card-content {
+margin-top: 32px;
+margin-left: 16px;
+margin-bottom: 64px;
+margin-right: 16px;
+position: relative;
+}
+
+span {
+font-size: 16px;
+font-weight: bold;
+color: #F5F8FC;
+}
+
+.card-content .number {
+font-size: 56px;
+font-weight: 900;
+-webkit-text-stroke: 0.5px #F5F8FC;
+background: linear-gradient(#1B1F24, #2563EB);
+background-clip: text; 
+-webkit-text-fill-color: transparent; 
+position: absolute;
+top: 180px;
+left: 0;
+}
+
+.card-content p {
+padding-top: 16px;
+padding-right: 16px;
+padding-bottom: 160px;
+}
+
+.Roadmap {
+background-color: #1B1F24;
+place-items: center;
+position: relative;
+}
+
+.Roadmap .container {
+position: relative;
+}
+
+.line {
+position: absolute;
+top: 80px;
+bottom: 80px;
+left: 50%;
+transform: translateX(-50%);
+width: 1px;
+background: #CBD5E1;
+z-index: 1; 
+}
+
+.roadmap-wrapper {
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 120px;
+}
+
+.step-wrapper {
+display: flex;
+width: 100%;
+align-items: center;
+}
+
+.Roadmap .number {
+font-size: 56px;
+font-weight: 900;
+-webkit-text-stroke: 0.5px #F5F8FC;
+background: linear-gradient(#1B1F24, #2563EB);
+background-clip: text; 
+-webkit-text-fill-color: transparent; 
+margin-left: 16%;
+}
+
+.step-text {
+width: 36%;
+margin-left: auto;
+}
+
+.Token {
+background-color: #1B1F24;
+place-items: center;
+}
+
+.token-wrapper {
+margin: 0 auto 0;
+width: 100%;
+display: flex;
+padding-top: 60px;
+align-items: center;
+}
+
+.Token h2 {
+text-align: center;
+}
+
+.token-info {
+width: 40%; 
+margin-right: auto;
+}
+
+.token-img-wrapper {
+margin-left: auto; 
+}
+
+.token-info-wrapper {
+background-color: #1E40AF;
+width: 100%;
+place-items: center;
+border-width: 1px;
+border-style: none;
+border-style: solid;
+border-radius: 24px;
+}
+
+.token-info-wrapper h3 {
+font-size: 32px;
+text-align: center;
+color: #F5F8FC;
+padding-top: 40px;
+}
+
+.token-info-wrapper p {
+text-align: center;
+padding-top: 24px;
+margin-bottom: 40px;
+}
+
+.token-info-wrapper button {
+margin-bottom: 40px;
+}
+
+.footer {
+background-color: #1B1F24;
+padding-top: 80px;
+place-items: center;
+}
+.footer-grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 24px; 
+}
+.footer-wrapper {
+place-items: center;
+padding-bottom: 40px;
+}
+.icon-holder {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 78px;
+height: 50px;
+border-radius: 12px;
+border-color: #F5F8FC;
+border-style: solid;
+border-width: 1px;
+cursor: pointer;
+margin-bottom: 32px;
+}
+
+.footer-wrapper p {
+color: #F5F8FC;
+}
+
+@media(max-width: 961px) {
+
+.hero-img-wrapper {
+padding-top: 80px;
+width: 80%;
+margin: 0 auto;
+}
+
+.hero-img-wrapper img{
+width: 100%;
+margin: auto;
+}
+
+.card {
+display: flex;
+flex-direction: column;
+padding-top: 60px;
+margin: 0 auto 0;
+}
+
+.token-wrapper {
+margin: 0 auto 0;
+width: 100%;
+display: flex;
+flex-direction: column;
+padding-top: 60px;
+align-items: center;
+}
+
+.token-info {
+margin: 0 auto 0;
+width: 72%;
+}
+
+.token-img-wrapper {
+margin: 60px auto 0;
+}
+
+.token-img-wrapper img {
+margin: 0 auto 0;
+width: 100%;
+}
+
+}
+
+@media(max-width: 621px) {
+
+h1 {
+font-size: 48px;
+}
+
+h2 {
+font-size: 32px;
+}
+
+.token-info-wrapper h3 {
+font-size: 20px;
+}
+
+.How-it-works h2 {
+text-align: center;
+font-size: 32px;
+}
+
+}
+
+@media(max-width: 466px) {
+
+p {
+font-size: 14px;
+}
+
+span {
+font-size: 14px;
+}
+
+.container {
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+.line {
+top: 60px;
+bottom: 60px;
+}
+
+h1 {
+font-size: 36px;
+}
+
+h2 {
+font-size: 28px;
+}
+
+.nav-wrapper {
+display: none;
+}
+
+.menu-icon {
+display: block;
+padding-top: 32px;
+margin-left: auto;
+}
+
+.hero-button {
+width: 148px;
+height: 40px;
+font-size: 14px;
+}
+
+.footer-grid {
+display: grid;
+grid-template-columns: repeat(2, 2fr);
+row-gap: 16px;
+}
+
+.icon-holder {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 78px;
+height: 50px;
+border-radius: 12px;
+border-style: solid;
+border-width: 1px;
+cursor: pointer;
+margin-bottom: 8px;
+}
+
+.footer p {
+padding-top: 16px;
+}
+
+}
