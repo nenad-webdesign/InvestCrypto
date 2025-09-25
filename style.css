@@ -359,7 +359,7 @@ align-items: center;
 
 .token-info {
 margin: 0 auto 0;
-width: 72%;
+width: 100%;
 }
 
 .token-img-wrapper {
@@ -460,5 +460,6 @@ margin-bottom: 8px;
 .footer p {
 padding-top: 16px;
 }
+
 
 }
