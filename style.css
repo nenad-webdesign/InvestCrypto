@@ -351,6 +351,7 @@ span {
 .footer-wrapper p {
   color: #F8F8F8;
   text-align: center;
+  margin-top: 32px;
 }
 
 @media(max-width: 961px) {
