@@ -18,11 +18,19 @@ background: linear-gradient(#1E40AF, #1B1F24);
 place-items: center;
 }
 
+.container {
+  width: 88%;
+  margin: 0 auto;     
+  place-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .nav-bar {
-width: 84%;
-justify-items: center;
-align-items: center;
-display: flex;
+  width: 84%;
+  margin: 0 auto;       /* i ovde */
+  align-items: center;
+  display: flex;
 }
 
 .nav-wrapper {
@@ -52,13 +60,6 @@ display: none;
 
 .menu {
 display: none;
-}
-
-.container {
-width: 88%;
-place-items: center;
-padding-top: 80px;
-padding-bottom: 80px;
 }
 
 .hero-wrapper {
